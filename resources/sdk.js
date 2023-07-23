@@ -183,7 +183,7 @@ ControlSurfaceDevice.prototype.log = function (message)
 	if(this.debugLog)
 		this.hostDevice.log (message);
 }
-�//************************************************************************************************
+//************************************************************************************************
 //
 // Control Surface SDK
 // Copyright (c)2016 PreSonus Software Ltd.

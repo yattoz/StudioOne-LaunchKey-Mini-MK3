@@ -9,6 +9,7 @@
  */
 // include SDK files from host
 include_file("resource://com.presonus.musicdevices/sdk/controlsurfacecomponent.js");
+include_file("./resources/sdk.js")
 include_file("Debug.js");
 include_file("Modes.js");
 

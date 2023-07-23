@@ -13,6 +13,7 @@ const kBankCount = 8;
 
 include_file("resource://com.presonus.musicdevices/sdk/controlsurfacecomponent.js");
 include_file("resource://com.presonus.musicdevices/sdk/musicprotocol.js");
+include_file("./resources/sdk.js")
 include_file("Debug.js");
 include_file("Color.js");
 include_file("Modes.js");
@@ -62,10 +63,10 @@ function LaunchKeyMK3ExtendedComponent()
 
         // add parameter for bank selection
         this.bankList = paramList.addList("bankList");
-        this.bankList.appendString(PreSonus.Banks.kAll);
-        this.bankList.appendString(PreSonus.Banks.kAudioTrack);
-        this.bankList.appendString(PreSonus.Banks.kAudioBus);
-        this.bankList.appendString(PreSonus.Banks.kUser);
+        this.bankList.appendString(Banks.kAll);
+        this.bankList.appendString(Banks.kAudioTrack);
+        this.bankList.appendString(Banks.kAudioBus);
+        this.bankList.appendString(Banks.kUser);
 
         this.modes.setupDrumModes( this.padDrumSection, [
             PreSonus.NoteRepeat.k4thPpq,
