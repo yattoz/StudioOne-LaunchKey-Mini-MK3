@@ -2,6 +2,16 @@
 
 This repo is a modified device control for LaunchKey Mini Mk3 to be used with PreSonus Studio One. This is heavily borrowed from the PreSonus ATOM controller and resembles many of the actions and controls that ATOM offers. The development of this code is not affiliated with PreSonus or Novation and had be crafted during my own spare time. A lot of the process was through trial and error while referencing other devices code and guessing/assuming what does what. There is no official documentation from PreSonus for an api; or at least publicly available. There is also little to no community support or effort with this kind of development so a lot of functions from this code relies heavily on hackable workarounds yet I had tried to keep it as simple and clean as possible.
 
+# Friendly note from this fork (@Yattoz)
+
+> When trying to use this profile on Studio One 6.2, I got namespace errors and undefined variables, which made Studio One crash.
+> 
+> Being by no means a Javascript developer, I just tweaked here and there the imports to use this repository SDK in addition of the one provided by Studio One.
+> 
+> I think that the SDK has evolved quite dramatically since this profile was created (the ATOM profile doesn't look similar to this one at all). As a quick and dirty fix, usnig the SDK furnished here (which I assume is outdated compared to other devices' SDK) solves the issue.
+> 
+> ¯\\_(ツ)_/¯
+
 ### Legend
 
 | Symbol                                        | Meaning                              |
